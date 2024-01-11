@@ -1,0 +1,287 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* ------------------- Header --------------- */
+.header-text {
+    text-align: center;
+    background-color: rgb(23, 108, 157);
+    padding: 12px 0 12px 0;
+    color: white;
+}
+
+
+.logo-img {
+    padding-right: 24px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 0 19px 0;
+}
+
+.nav-right__wrapp{
+    display: flex;
+    text-align: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.nav-item a:hover {
+    color: red;
+
+}
+
+.header-btn {
+
+}
+
+.header-btn__left{
+    border: none;
+    background-color: white;   
+    color: rgb(15, 95, 141);
+}
+
+.header-btn__right {
+    background-color: rgb(71, 141, 222);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.header-btn__left:hover {
+    color: red;
+}
+
+.header-btn__right:hover {
+    background-color: red;
+    cursor: pointer;
+}
+/* ---------------------- Header End -------------- */
+
+/* --------------------- Daily task --------------- */
+.daily-task__wrapp {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    
+}
+
+.daily-task__tittle {
+    color: #1F1F1F;
+    font-size: 58px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+.daily-task__text {
+    color: #1F1F1F;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    width: 351px;
+}
+
+.daily-task__btns{
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    padding-top: 30px;
+}
+
+.daily-task__left-btn {
+    background-color: rgb(71, 141, 222);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.daily-task__left-btn:hover {
+    background-color: red;
+    transition: 0.4px;
+    cursor: pointer;
+}
+
+.daily-task__right-btn {
+    border: none;
+    background-color: white;
+    color: rgb(15, 95, 141);
+}
+
+
+.daily-task__right-btn:hover {
+    color: red;
+    cursor: pointer;
+}
+/* --------------------------- Company ------------ */
+.company__wrapp {
+    display: block;
+    text-align: center;
+    gap: 30px;
+    padding-top: 130px;
+    padding-bottom: 150px;
+}
+
+.company__wrapp__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+/* --------------------------- Company End ----------- */
+
+/* --------------------------- Cards ----------------- */
+.cards__wrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+/* ---- card left --------------*/
+.cards__left-card {
+    width: 355px;
+    background-color: hsla(53, 93%, 72%, 1);
+}
+
+.cards__left-card img {
+    padding: 32px 0 10px 32px;
+}
+
+.cards__left-card h3 {
+    padding-left: 32px;
+}
+
+.cards__left-card p {
+    padding: 13px 36px 38px 32px;
+}
+/* ------------ card left end ---------- */
+
+/* ------------ card medium ------------ */
+.cards__medium-card {
+    width: 355px;
+    background: #CCEFF6;
+}
+
+.cards__medium-card img {
+    padding: 32px 0 10px 32px;
+}
+
+.cards__medium-card h3 {
+    padding-left: 32px;
+}
+
+.cards__medium-card p {
+    padding: 13px 36px 38px 32px;
+}
+/* ----------- card medium end -------- */
+
+/* ----------- card right ------------- */
+.cards__right-card {
+    width: 355px;
+    background: #F7CEDC;
+}
+
+.cards__right-card img {
+    padding: 32px 0 10px 32px;
+}
+
+.cards__right-card h3 {
+    padding-left: 32px;
+}
+
+.cards__right-card p {
+    padding: 13px 36px 38px 32px;
+}
+/* --------------- Cards End --------------- */
+
+/* ------------------- Footer Start ----------- */
+.footer__wrapp {
+    display: flex;
+    align-items: start;
+    padding-bottom: 40px;
+}
+
+.footer__wrapp__icons{
+    width: 432px;
+}
+
+.footer__wrapp__text-top {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.footer__wrapp__text-bottom{
+    display: flex;
+    align-items: center;
+}
+
+
+.footer__wrapp__right{
+    width: 768px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.footer__list__item a {
+    color: #626A72;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+
+
+.footer__newslatter__text {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer__newslatter input {
+    width: 216px;
+    padding: 7px 15px;
+    border: none;
+    border-bottom: 1px solid #626A72;
+}
+
+.footer__wrapp__btm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0 45px 0; 
+}
+
+.footer__wrapp__btm__text {
+    display: flex;
+}
+
+/* -------------------- Footer End ------------ */
